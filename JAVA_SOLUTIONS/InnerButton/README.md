@@ -46,6 +46,7 @@ class InnerButton {
 Таким образом addActionListener(new BListener).
 
 
+Результат
 ![A](https://user-images.githubusercontent.com/97097637/178161230-674c1262-cff8-40b6-9995-fc6a5c9f459b.JPG)
 После нажатия кнопки "A"
 ![B](https://user-images.githubusercontent.com/97097637/178161274-80e76aaa-b88d-485c-979f-f368dd81544e.JPG)
