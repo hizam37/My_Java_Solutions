@@ -41,7 +41,10 @@ class InnerButton {
 }
 
 
-Ответь 
+Ответ
 Программа Не будет работать если вы обратите внимания можно заметить что класс BListener наследует(extends) функция а не класс чтобы исправить надо использовать "implements" потому чтобы мы хотим имплиментировать функция внутри класс "BListener", затем внутри функция addActionListener() добавим нашу функциональный объект BListener.
 Таким образом addActionListener(new BListener).
+
+
+![A](https://user-images.githubusercontent.com/97097637/178161230-674c1262-cff8-40b6-9995-fc6a5c9f459b.JPG)
 
