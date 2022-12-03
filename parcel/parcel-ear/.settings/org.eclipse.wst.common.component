@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="parcel-ear">
+                
+        <wb-resource deploy-path="/" source-path="/" tag="defaultRootSource"/>
+        <dependent-module archiveName="jackson-databind-2.12.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.12.2/jackson-databind-2.12.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-annotations-2.12.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/core/jackson-annotations/2.12.2/jackson-annotations-2.12.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-core-2.12.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/core/jackson-core/2.12.2/jackson-core-2.12.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-cdi-5.22.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/activiti/activiti-cdi/5.22.0/activiti-cdi-5.22.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-engine-5.22.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/activiti/activiti-engine/5.22.0/activiti-engine-5.22.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-bpmn-converter-5.22.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/activiti/activiti-bpmn-converter/5.22.0/activiti-bpmn-converter-5.22.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-bpmn-model-5.22.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/activiti/activiti-bpmn-model/5.22.0/activiti-bpmn-model-5.22.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-process-validation-5.22.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/activiti/activiti-process-validation/5.22.0/activiti-process-validation-5.22.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-image-generator-5.22.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/activiti/activiti-image-generator/5.22.0/activiti-image-generator-5.22.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-email-1.4.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/apache/commons/commons-email/1.4/commons-email-1.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.mail-1.5.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/sun/mail/javax.mail/1.5.2/javax.mail-1.5.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-lang3-3.3.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mybatis-3.3.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/mybatis/mybatis/3.3.0/mybatis-3.3.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="joda-time-2.6.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/joda-time/joda-time/2.6/joda-time-2.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.7.6.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jcl-over-slf4j-1.7.6.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/slf4j/jcl-over-slf4j/1.7.6/jcl-over-slf4j-1.7.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="auto-service-1.0-rc7.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/google/auto/service/auto-service/1.0-rc7/auto-service-1.0-rc7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="auto-service-annotations-1.0-rc7.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/google/auto/service/auto-service-annotations/1.0-rc7/auto-service-annotations-1.0-rc7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="auto-common-0.10.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/google/auto/auto-common/0.10/auto-common-0.10.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="guava-27.0.1-jre.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="failureaccess-1.0.1.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsr305-3.0.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="checker-qual-2.5.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="error_prone_annotations-2.2.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="j2objc-annotations-1.1.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="animal-sniffer-annotations-1.17.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-3.0.3.RELEASE.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/springframework/spring-context/3.0.3.RELEASE/spring-context-3.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-3.0.3.RELEASE.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/springframework/spring-aop/3.0.3.RELEASE/spring-aop-3.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aopalliance-1.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-3.0.3.RELEASE.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/springframework/spring-beans/3.0.3.RELEASE/spring-beans-3.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-3.0.3.RELEASE.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/springframework/spring-core/3.0.3.RELEASE/spring-core-3.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.1.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-3.0.3.RELEASE.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/springframework/spring-expression/3.0.3.RELEASE/spring-expression-3.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-asm-3.0.3.RELEASE.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/springframework/spring-asm/3.0.3.RELEASE/spring-asm-3.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxb-api-2.4.0-b180830.0359.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/javax/xml/bind/jaxb-api/2.4.0-b180830.0359/jaxb-api-2.4.0-b180830.0359.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.activation-api-1.2.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activation-1.1.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/javax/activation/activation/1.1/activation-1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxb-runtime-2.3.0-b170127.1453.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/glassfish/jaxb/jaxb-runtime/2.3.0-b170127.1453/jaxb-runtime-2.3.0-b170127.1453.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxb-core-2.3.0-b170127.1453.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/glassfish/jaxb/jaxb-core/2.3.0-b170127.1453/jaxb-core-2.3.0-b170127.1453.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="txw2-2.3.0-b170127.1453.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/glassfish/jaxb/txw2/2.3.0-b170127.1453/txw2-2.3.0-b170127.1453.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="istack-commons-runtime-3.0.4.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/sun/istack/istack-commons-runtime/3.0.4/istack-commons-runtime-3.0.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stax-ex-1.7.8.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/jvnet/staxex/stax-ex/1.7.8/stax-ex-1.7.8.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="FastInfoset-1.2.13.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/sun/xml/fastinfoset/FastInfoset/1.2.13/FastInfoset-1.2.13.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+            
+    </wb-module>
+    
+</project-modules>
