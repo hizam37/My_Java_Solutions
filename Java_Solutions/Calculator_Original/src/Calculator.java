@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Calculator {
 
-    public static String calc() throws Exception {
+    public static String calc(String input) throws Exception {
         LinkedHashMap<String, Integer> RomanNumbers = new LinkedHashMap<>();
         RomanNumbers.put("I", 1);
         RomanNumbers.put("II", 2);
@@ -14,93 +14,96 @@ public class Calculator {
         RomanNumbers.put("VIII", 8);
         RomanNumbers.put("IX", 9);
         RomanNumbers.put("X", 10);
-        System.out.println("Enter your Formula: ");
-        Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
         String[] input_Receiver = input.split(" ");
-        if (input_Receiver.length > 3) {
-            throw new Exception("Only one operator and two operands are allowed!");
-        }
-        if (input_Receiver.length < 3) {
-            throw new ArrayIndexOutOfBoundsException("Only one operator and two operands are allowed!");
-        }
-        if (!RomanNumbers.containsKey(input_Receiver[0]) | !RomanNumbers.containsKey(input_Receiver[2])) {
-            for (Map.Entry<String, Integer> entry : RomanNumbers.entrySet()) {
-                String keys = entry.getKey();
-                int values = entry.getValue();
-                System.out.println(keys + " = " + values);
+        {
+            if (input_Receiver.length < 3) {
+                throw new ArrayIndexOutOfBoundsException(
+                        "Only one operator and two operands are allowed!");
             }
-            throw new NumberFormatException("Only the following Roman numerals are allowed");
-        }
-
-        if (RomanNumbers.containsKey(input_Receiver[0]) & RomanNumbers.containsKey(input_Receiver[2])) {
-            switch (input_Receiver[1]) {
-                case "+" -> {
-                    if (RomanNumbers.get(input_Receiver[0]) < RomanNumbers.get(input_Receiver[2])) {
-                        System.out.println(input_Receiver[2] + input_Receiver[0]);
-                    } else {
-                        System.out.println(input_Receiver[0] + input_Receiver[2]);
-                    }
-                }
-                case "-" -> {
-                    int result = RomanNumbers.get(input_Receiver[0]) - RomanNumbers.get(input_Receiver[2]);
-                    for (Map.Entry<String, Integer> entry : RomanNumbers.entrySet()) {
-                        if (entry.getValue().equals(result)) {
-                            System.out.println(entry.getKey());
+            if (RomanNumbers.containsKey(input_Receiver[0]) & RomanNumbers.containsKey(input_Receiver[2])) {
+                switch (input_Receiver[1]) {
+                    case "+" -> {
+                        if (RomanNumbers.get(input_Receiver[0]) < RomanNumbers.get(input_Receiver[2])) {
+                            System.out.println(input_Receiver[2] + input_Receiver[0]);
+                        } else {
+                            System.out.println(input_Receiver[0] + input_Receiver[2]);
                         }
                     }
-                    if (result <= 0) {
-                        throw new Exception("0 digit or Negative Roman numerals are not allowed!");
+                    case "-" -> {
+                        int result = RomanNumbers.get(input_Receiver[0]) - RomanNumbers.get(
+                                input_Receiver[2]);
+                        for (Map.Entry<String, Integer> entry : RomanNumbers.entrySet()) {
+                            if (entry.getValue().equals(result)) {
+                                System.out.println(entry.getKey());
+                            }
+                        }
+                        if (result <= 0) {
+                            throw new Exception(
+                                    "0 digit or Negative Roman numerals are not allowed!");
+                        }
                     }
-                }
-                case "*" -> {
-                    int result = RomanNumbers.get(input_Receiver[0]) * RomanNumbers.get(input_Receiver[2]);
-                    result = result / RomanNumbers.get(input_Receiver[0]);
-                    for (Map.Entry<String, Integer> entry : RomanNumbers.entrySet()) {
-                        for (int i = 0; i < RomanNumbers.get(input_Receiver[0]); i++) {
+                    case "*" -> {
+                        int result = RomanNumbers.get(input_Receiver[0]) * RomanNumbers.get(
+                                input_Receiver[2]);
+                        result = result / RomanNumbers.get(input_Receiver[0]);
+                        for (Map.Entry<String, Integer> entry : RomanNumbers.entrySet()) {
+                            for (int i = 0; i < RomanNumbers.get(input_Receiver[0]); i++) {
+                                if (entry.getValue().equals(result)) {
+                                    System.out.print(entry.getKey());
+                                }
+                            }
+                        }
+                        System.out.println();
+                    }
+                    case "/" -> {
+                        int result = RomanNumbers.get(input_Receiver[0]) / RomanNumbers.get(
+                                input_Receiver[2]);
+                        for (Map.Entry<String, Integer> entry : RomanNumbers.entrySet()) {
                             if (entry.getValue().equals(result)) {
                                 System.out.print(entry.getKey());
                             }
                         }
+                        System.out.println();
                     }
-                    System.out.println();
                 }
-                case "/" -> {
-                    int result = RomanNumbers.get(input_Receiver[0]) / RomanNumbers.get(input_Receiver[2]);
-                    for (Map.Entry<String, Integer> entry : RomanNumbers.entrySet()) {
-                        if (entry.getValue().equals(result)) {
-                            System.out.print(entry.getKey());
-                        }
+            } else {
+                switch (input_Receiver[1]) {
+                    case "+" -> {
+                        int result = Integer.parseInt(input_Receiver[0]) + Integer.parseInt(
+                                input_Receiver[2]);
+                        System.out.println(result);
                     }
-                    System.out.println();
-                }
-            }
-        } else {
-            switch (input_Receiver[1]) {
-                case "+" -> {
-                    int result = Integer.parseInt(input_Receiver[0]) + Integer.parseInt(input_Receiver[2]);
-                    System.out.println(result);
-                }
-                case "-" -> {
-                    int result = Integer.parseInt(input_Receiver[0]) - Integer.parseInt(input_Receiver[2]);
-                    System.out.println(result);
-                }
-                case "*" -> {
-                    int result = Integer.parseInt(input_Receiver[0]) * Integer.parseInt(input_Receiver[2]);
-                    System.out.println(result);
-                }
-                case "/" -> {
-                    int result = Integer.parseInt(input_Receiver[0]) / Integer.parseInt(input_Receiver[2]);
-                    System.out.println(result);
+                    case "-" -> {
+                        int result = Integer.parseInt(input_Receiver[0]) - Integer.parseInt(
+                                input_Receiver[2]);
+                        System.out.println(result);
+                    }
+                    case "*" -> {
+                        int result = Integer.parseInt(input_Receiver[0]) * Integer.parseInt(
+                                input_Receiver[2]);
+                        System.out.println(result);
+                    }
+                    case "/" -> {
+                        int result = Integer.parseInt(input_Receiver[0]) / Integer.parseInt(
+                                input_Receiver[2]);
+                        System.out.println(result);
+                    }
                 }
             }
         }
-        return calc();
-    }
+        return input;
+}
+
 
 
     public static void main(String[] args) throws Exception {
-        calc();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your Formula: ");
+        while (scanner.hasNext()) {
+            String s = scanner.nextLine();
+            calc(s);
+            System.out.println("Enter your Formula: ");
+        }
     }
 }
 

@@ -10,6 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -23,6 +26,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ISLAM/Desktop/My_Java/Calculator_Original&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -38,12 +42,6 @@
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calculator" />
       <module name="Calculator_Original" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,6 +74,16 @@
       <workItem from="1677867766279" duration="1453000" />
       <workItem from="1677869458010" duration="33000" />
       <workItem from="1677870217842" duration="3707000" />
+      <workItem from="1678824356810" duration="425000" />
+      <workItem from="1678825283774" duration="2221000" />
+      <workItem from="1678827709615" duration="893000" />
+      <workItem from="1678916278266" duration="1947000" />
+      <workItem from="1678954920121" duration="2596000" />
+      <workItem from="1678957793743" duration="698000" />
+      <workItem from="1678958774935" duration="3881000" />
+      <workItem from="1678963979981" duration="1624000" />
+      <workItem from="1678965630877" duration="183000" />
+      <workItem from="1678995269360" duration="91000" />
     </task>
     <servers />
   </component>
