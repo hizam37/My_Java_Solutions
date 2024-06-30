@@ -1,0 +1,6 @@
+main\model\BookRepository.class
+main\Storage.class
+main\BookController.class
+main\model\Book.class
+main\DefaultController.class
+main\Main.class

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ccf388b-0d6e-43f4-89ad-9469d7b76bd4" name="Changes" comment="Variables_Seperated">
+      <change beforePath="$PROJECT_DIR$/../Primitives/IntOrInteger/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Primitives/IntOrInteger/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QNK8zNCuYQ74mDvRidA3Qyy9vR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/skillbox/java_basics/ObjectsAndClasses_StaticFinal/StaticFinal&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Arithmetic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arithmetic" />
+      <module name="ObjectsAndClasses_Methods" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ObjectsAndClasses_Methods" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Arithmetic" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ccf388b-0d6e-43f4-89ad-9469d7b76bd4" name="Changes" comment="" />
+      <created>1685188443142</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685188443142</updated>
+      <workItem from="1685188444322" duration="455000" />
+      <workItem from="1685188923145" duration="128000" />
+      <workItem from="1685189071447" duration="254000" />
+      <workItem from="1685189347300" duration="582000" />
+      <workItem from="1685189953145" duration="184000" />
+      <workItem from="1685190157552" duration="453000" />
+      <workItem from="1685190638236" duration="1600000" />
+      <workItem from="1685265556154" duration="1622000" />
+      <workItem from="1685270169523" duration="877000" />
+      <workItem from="1685271115988" duration="11080000" />
+      <workItem from="1685302666530" duration="63000" />
+      <workItem from="1685305833279" duration="38000" />
+      <workItem from="1685390653970" duration="4278000" />
+      <workItem from="1685482634825" duration="1822000" />
+      <workItem from="1685531474954" duration="48000" />
+      <workItem from="1685550956861" duration="76000" />
+      <workItem from="1685907437101" duration="311000" />
+      <workItem from="1686480111719" duration="16000" />
+      <workItem from="1686581274373" duration="15000" />
+      <workItem from="1686774133285" duration="321000" />
+      <workItem from="1686780496005" duration="137000" />
+      <workItem from="1686857890094" duration="2596000" />
+      <workItem from="1686862458469" duration="25000" />
+      <workItem from="1686862535914" duration="56000" />
+      <workItem from="1686862938600" duration="66000" />
+      <workItem from="1686863025591" duration="7000" />
+      <workItem from="1686863157726" duration="126000" />
+      <workItem from="1687029730595" duration="15000" />
+    </task>
+    <task id="LOCAL-00001" summary="Homework 1,2 are solved">
+      <created>1685190915996</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685190915996</updated>
+    </task>
+    <task id="LOCAL-00002" summary="issues solved">
+      <created>1685300831827</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685300831827</updated>
+    </task>
+    <task id="LOCAL-00003" summary="New">
+      <created>1685484216363</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685484216363</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Current">
+      <created>1686774228477</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686774228477</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Variables_Seperated">
+      <created>1686861021344</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686861021344</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework 1,2 are solved" />
+    <MESSAGE value="issues solved" />
+    <MESSAGE value="New" />
+    <MESSAGE value="Current" />
+    <MESSAGE value="Variables_Seperated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Variables_Seperated" />
+  </component>
+</project>
